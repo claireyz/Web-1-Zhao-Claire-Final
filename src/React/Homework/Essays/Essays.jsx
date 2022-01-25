@@ -26,10 +26,23 @@ In order to record our changes, we need to stage and commit the changes by telli
 
             </Essay>
             <Essay q='S4. What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?' >
-                This is my answer
+            <p>A single page application (SPA) is one page that has a lot of information. Most information stays the same and only some of the content needs to be changed or updated at a time. One example of a single page app is your email. As you scroll through your email inbox, the navigation and placement of things all stay the same. The only thing that is changing is how far down or deep into your inbox you go. The SPA only sends the necessary information from what you click and your browser will only re-render that specific information. Many use SPAs now because of its user friendly functionalities such as: fancy UI, Javascript development, and API. </p>
+
+<p>This is different from traditional multi-page web sites where the server re-renders the whole page to present the change. Using SPAs are more cost efficient and quicker for users to access the content they’re looking for because it reduces the amount of information the server has to render. By transferring the page rendering from the server to the user, the web page can be dynamically rewritten instead of having to reload the entire page. SPAs are good to use in responsive design because it improves app performance and consistency, and reduces costs and development time. </p>
+
+<p>Traditional multi-page web pages are used when the user’s requirements are simple, read-only, or need to function in browsers without Javascript. You would build a traditional multi-page web site if there is little user side behavior with the site. Using a search engine is simple for the user and requires little interaction on their end. They type in their search and the browser displays their results. </p>
+
             </Essay>
             <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?' >
-                This is my answer
+            <p>Web Designer, Front End Developer, and Back End Developer are all web development roles. They interact with each other to ensure the delivery of their product (the website or product) is visually aesthetic, user friendly, and functional. </p>
+
+<p>A Web Designer works on the appearance of a web site. They work on the visuals, determine the layout, and sometimes the content that goes into it. Web designers make sure the website is aesthetically pleasing and simple to use and look at. They usually do not write code or help develop the web page such as front or back end developers. But they should have an understanding of basic code and know if a design will work or not. A web designer usually has more graphic design skills such as Photoshop, DreamWeaver, Flash, etc. A web designer can test the usability or reception of their design by wireframing and prototyping their ideas. They then hand it off to the front and back end developers. </p>
+
+
+<p>The front end is the part of the website the user interacts with directly. The front end involves the user experience and user interface such as the colors, text styles, backgrounds, tables, buttons, graphs, animations, etc. Front End Developers use HTML, CSS, and JavaScript languages to affect the structure, aesthetic, and behavior of the web page. Front End developers focus on responsiveness and performance of the product to make sure it behaves normally across all platform or display sizes. </p>
+
+<p>The back end is the part of the website the user cannot see. A Back End Developer works with creating and maintaining the web’s servers that store and arrange the data. Tasks such as writing APIs, creating libraries, and system components are all part of the back end. Back End Developers use languages such as PHP, C++, Java, Python, Javascript, and Node.js. </p>
+
             </Essay>
         </EssaysStyled>
     )
