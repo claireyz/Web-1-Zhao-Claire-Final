@@ -14,13 +14,13 @@ const Essays = () => {
 
             </Essay>
             <Essay q='S3. Explain the difference between HTML, CSS and JS.' >
-            <li>HTML: mark up language for tag based hierarchy and semantic definition </li>
+            <li>HTML: A mark up language for tag based hierarchy and semantic definition </li>
             <li>CSS: The skin (appearance/visual aesthetics), CSS Selectors - to select html elements </li>
             <li>Javascript: Programming language for interactive features of the site (behavior) slideshows, scrolling</li>
 
             </Essay>
             <Essay q='S4. What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?' >
-            <li>SPAs does not have to reload like multi-page (less repetition) </li>
+            <li>SPAs do not have to reload like multi-page (less repetition) </li>
             <li>Faster load times, more efficient. </li>
 
             </Essay>
