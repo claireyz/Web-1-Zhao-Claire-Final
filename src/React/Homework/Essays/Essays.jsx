@@ -8,8 +8,8 @@ const Essays = () => {
         <EssaysStyled>
             <h2>Essays</h2>
             <Essay q='S2. What is the difference between Git, Github and Heroku?' >
-            <li>Git: A place for our Git repository, remote server - leveraging git. Teamwork, code review, sharing. </li>
-            <li>Github: a place for our git repository, remote server - leveraging git. Teamwork, code review, sharing. </li>
+            <li>Git: Version control system, manage and edit code on their local system. Free. Merge branches in once approved. </li>
+            <li>Github: A place for our git repository, remote server - leveraging git. Teamwork, code review, sharing. </li>
             <li>Heroku: Cloud based web app server with the ability to deploy apps without having a DevOps degree. </li>
 
             </Essay>

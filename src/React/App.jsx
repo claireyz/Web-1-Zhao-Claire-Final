@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
 
 import Header from './Layout/Header.jsx';
 import Nav from './Layout/Nav.jsx';
@@ -8,6 +9,7 @@ import Footer from './Layout/Footer.jsx';
 const App = () => {
 
     return (
+        <BrowserRouter>
         <AppStyled className='App'>
             App
             <Header />
@@ -15,6 +17,7 @@ const App = () => {
             <Main />
             <Footer />
         </AppStyled>
+    </BrowserRouter>
     );
 }
 
