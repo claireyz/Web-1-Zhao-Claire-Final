@@ -12,6 +12,7 @@ const Main = () => {
 
     return (
         <MainStyled className='Main'>
+            <div className="inset">
             <Switch>
                 <Route path='/' exact> 
                     <Welcome />
@@ -29,6 +30,7 @@ const Main = () => {
                     <Homework />
                 </Route>
             </Switch>
+        </div>
         </MainStyled>
     );
 }
@@ -38,10 +40,16 @@ export default Main;
 const MainStyled = styled.main`
     
     .inset {
-        border: solid 10px purple;
         padding: 20px;
-        max-width: 800px;
+        width: 100%;
+        max-width: 1200px;
         margin: auto;
+        min-height: 600px;
+    }
+    
+    h1 {
+        margin: 0px 0px 20px;
+        font-size: 40px;
     }
     
 `;
