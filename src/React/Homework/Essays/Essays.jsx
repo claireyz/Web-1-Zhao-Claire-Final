@@ -40,10 +40,11 @@ const Essays = () => {
 
             <Essay q='S6.  Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.' >
                 <ul>
-                    <li><b>Site Relative Path:</b> A relative URL only includes the path. The path is everything that comes after the domain, including the directory and slug. If you use a site relative path URL, the server is assuming that the URL uses the same protocol, subdomain and domain as the page it’s on. It is recommended that when you link to a page of your own website to use the short absolute path or use the site relative path. This speeds up page load time because you have told the web server that the path is on the same server. Using the short path also guarantees no broken links in case you ever change the domain name of your site. </li>
+                    <li><b>Site Relative Path:</b> A relative URL only includes the path. The path is everything that comes after the domain, including the directory and slug. If you use a site relative path URL, the server is assuming that the URL uses the same protocol, subdomain and domain as the page it’s on. It is recommended that when you link to a page of your own website to use the short absolute path or use the site relative path. 
+                    This speeds up page load time because you have told the web server that the path is on the same server. Using the short path also guarantees no broken links in case you ever change the domain name of your site. </li>
                     <li><b>Document Relative Path:</b>Document relative paths are used for local links in most websites. It is most useful when the current document and linked document are within the same folder. The document relative path is like a site relative path because it omits the domain. The URL only provides the portion of the path that differs. 
-                    <br> Each forward slash (/) represents moving down one level in the folder hierarchy. </br> 
-                    <br>Each ../ represents moving up one level the folder hierarchy.</br></li>
+                    Each forward slash (/) represents moving down one level in the folder hierarchy.
+                    Each ../ represents moving up one level the folder hierarchy. </li>
                     <li><b>Absolute Path:</b>An absolute URL is the full URL. This includes: protocol (http/https), the optional subdomain (e.g. www), domain (example.com), and path (which includes the directory and slug). Absolute URLs provide all the available information to find the location of a page. When you link to another page from another website you can only use the full absolute path URL. </li>
                 </ul>
             </Essay>
