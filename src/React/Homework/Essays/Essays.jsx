@@ -25,9 +25,9 @@ const Essays = () => {
 
             </Essay>
             <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?' >
-            <li><b>Web Designer/UX Designer:</b>Focus on designing the look of the website, mock ups, features for the Web Developer to translate</li>
+            <li><b>Web Designer/UX Designer:</b> Focus on designing the look of the website, mock ups, features for the Web Developer to translate</li>
             <li><b>Front End Developer:</b> Programmer: User interaction (HTML, JS CSS), User interface, colors, responsive - for all devices.</li>
-            <li><b>Back End Developer:</b>Programmer: Server side: Data, Database (SQL), (Node.js, Python, PHP, JAVA )</li>
+            <li><b>Back End Developer:</b> Programmer: Server side: Data, Database (SQL), (Node.js, Python, PHP, JAVA )</li>
             </Essay>
 
             <Essay q='S6.  Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.' >
