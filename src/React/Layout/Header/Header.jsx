@@ -35,5 +35,9 @@ const HeaderStyled = styled.header`
             display: flex;
             align-items: center;
         }
+
+        .SiteTitle {
+            flex: 3;
+        }
     }
 `;

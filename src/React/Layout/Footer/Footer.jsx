@@ -8,8 +8,8 @@ const Footer = () => {
 
     return (
         <FooterStyled className='Footer'>
-            <SiteTitle />
-            <Logo /> 
+            <Logo />
+            <SiteTitle /> 
         </FooterStyled>
     );
 }
