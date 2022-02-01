@@ -35,6 +35,10 @@ const Essays = () => {
 <p>The back end is the part of the website the user cannot see. A Back End Developer works with creating and maintaining the web’s servers that store and arrange the data. Tasks such as writing APIs, creating libraries, and system components are all part of the back end. Back End Developers use languages such as PHP, C++, Java, Python, Javascript, and Node.js. </p>
 
             </Essay>
+
+            <Essay q='S6.  Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.' >
+            <p>Answer goes here.</p>
+            </Essay>
         </EssaysStyled>
     )
 }
