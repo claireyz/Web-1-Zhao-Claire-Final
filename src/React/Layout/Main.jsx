@@ -51,5 +51,10 @@ const MainStyled = styled.main`
         margin: 0px 0px 20px;
         font-size: 40px;
     }
+
+    h3 {
+        margin: 0px 0px 20px;
+        font-size: 30px;
+    }
     
 `;
