@@ -44,17 +44,15 @@ const MainMenuStyled = styled.div`
         }
 
     }
-
     @media ${defaultMediaQueries.mdUp} {
-                    display: flex;
-                    justify-content: center;
-                    a {
-                        display: inline-block;
-                        width: 150px;
-                        margin: 0px 10px;
-                        font-size: 16px;
-                        border-radius: 5px;
-                    }
+        display: flex;
+        justify-content: center;
+            a {
+                display: inline-block;
+                width: 150px;
+                margin: 0px 10px;
+                font-size: 16px;
+                border-radius: 5px;
         }
     }
 `;
