@@ -8,7 +8,7 @@ const ServiceGallery = () => {
     return (
         <ServiceGalleryStyled className='ServiceGallery'>
             ServiceGallery 
-            < ServiceGalleryItem />
+            <ServiceGalleryItem />
         </ServiceGalleryStyled>
     );
 }
