@@ -69,19 +69,13 @@ const Essays = () => {
 
             <Essay q='S9.  What is considered the right size for an image or video asset?' >
                 <ul>
-                    <li>For optimal website performance, images should be as large as needed to fill their “containers”, based on your page layout. 
-                        For example, slideshow images are usually wider; blog images are medium-sized (at a width equal to the page width minus the sidebar); thumbnails are smaller, etc.
-                        It’s crucial to determine image dimensions first, to know how wide your content area is on your site. You can use a “page ruler” browser extension that helps you take the measurements, or if you have experience, use the developer tools built into your web browser: right-click on any page element and click “Inspect”. 
-                    </li>
-                    <li>
-                        So for any images that span the entire width of the browser, images should be 2560 pixels in width, and any height you prefer.
-                        Gallery images ( images that open up in lightbox view): since these images will open up in a full-screen view, I recommend sizing them to at least 1500 pixels (on the longest edge).
-                        Vertical/portrait images can be even smaller, with a maximum height of 1200px (like 800×1200 pixels for a 2:3 vertical image, or 900×1200 pixels for a 3:4 vertical image)..
-                        For thumbnail and static images, you would determine the image dimensions first by the content area it is on the site. Knowing that it gets displayed at 260×174 pixels in width based on your page layout, you’d upload images at twice that size: 520×348 pixels.
-                    </li>
-                    <li>
-                        We export all videos in HD sizes of 720 and/or 1080. To fill the entire screen, the image should be as close to these dimensions as possible: 1280×720 (for 720) or 1920×1080 (for 1080).
-                    </li>
+                    <li> Trick question, whatever size will give us the fastest download without compromising quality. </li>
+                </ul>
+            </Essay>
+
+            <Essay q='S10.  What does it mean for a company to be Agile? What are the pros and cons of being agile?' >
+                <ul>
+                    <li>Answer here. </li>
                 </ul>
             </Essay>
 
