@@ -1,10 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ServiceMenuItem = ({category}) => {
+const ServiceMenuItem = ({category, chosenCategory, chosenCategoryUpdate}) => {
+
+    const clickHandler = () => {
+        chosenCategoryUpdate(category);
+    }
+
+    const theClassName = (chosenCategory === category) ? 'ServiceMenuItem active':'ServiceMenuItem';
+
 
     return (
-        <ServiceMenuItemStyled className='ServiceMenuItem'>
+        <ServiceMenuItemStyled className={ theClassName } onClick={ clickHandler }>
             { category }
         </ServiceMenuItemStyled>
     );
@@ -23,5 +30,10 @@ const ServiceMenuItemStyled = styled.div`
 
     &:hover {
         background-color: #eeeeee;
+    }
+
+    &.active {
+        background-color: teal;
+        color: white;
     }
 `;
