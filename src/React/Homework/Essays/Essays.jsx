@@ -75,7 +75,7 @@ const Essays = () => {
 
             <Essay q='S10.  What does it mean for a company to be Agile? What are the pros and cons of being agile?' >
                 <ul>
-                    <li>Answer here. </li>
+                    <li>The agile business is one that can respond quickly to market changes, customer and client demands, and its own accelerated timelines. It can make decisions quickly, and take action on those decisions. It can move easily from project to project.Agility also arises out of the collaborative environment, and leads to further innovation and adaptability. An agile enterprise gains competitive advantage by responding faster to internal and external changes, being more productive, getting products and services to market rapidly, and responding quickly to customer feedback and needs. Agile pros are flexibility, embracing uncertainty, collaboration, immediate feedback, and less defective products. Some cons are lack of documentation, scope (lacking specifics), cohesion, time, and lack of predictability. </li>
                 </ul>
             </Essay>
 
