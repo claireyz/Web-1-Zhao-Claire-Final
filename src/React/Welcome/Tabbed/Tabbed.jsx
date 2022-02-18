@@ -13,8 +13,7 @@ const Tabbed = () => {
     const [chosenTab, chosenTabUpdate] = useState(tabbedData[0]);
 
     return (
-        <TabbedStyled className='Tabbed'>
-            Tabbed 
+        <TabbedStyled className='Tabbed'> 
             <TabbedMenu chosenTab={ chosenTab } chosenTabUpdate={ chosenTabUpdate } tabbedData={ tabbedData } />
             <Content chosenTab={ chosenTab } />
         </TabbedStyled>
