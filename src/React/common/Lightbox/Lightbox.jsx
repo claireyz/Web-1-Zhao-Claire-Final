@@ -10,7 +10,6 @@ const Lightbox = ({title, activeContent, modalContent}) => {
 
     return (
         <LightboxStyled className='Lightbox'>
-            <h3>Lightbox</h3>
             < ActiveArea activeContent= { activeContent } showModalUpdate={ showModalUpdate }/>
             {
                 showModal &&
