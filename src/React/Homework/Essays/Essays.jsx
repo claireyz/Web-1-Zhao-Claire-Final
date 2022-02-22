@@ -83,11 +83,18 @@ const Essays = () => {
 
             <Essay q='S11.  What are testing environments? What is the difference between Local, Dev, QA and Production?' >
                 <ul>
-                    <li> A test environment is a server that lets you run the test cases you have defined. The test environment includes the server to run the tests on, the hardware, and network configuration. Test environments let you create identical environments every time you need to test your product. Doing so provides accurate feedback and gives the testing engineer confidence in their quality and behavior of the application.  </li>
-                    <li> Developers create and debug their initial code on their local computers. Developers work in their local environment and may create “stubs” to simulate other parts of the software. This allows them to experiment without affecting the work of others. </li>
-                    <li> The “development” environment is the shared location for all developers to check their code against all the changes. It is also known a integration testing and is common practice to automate these tests after the updates have been made to the repository. </li>
-                    <li> The QA environment is where the stable versions of the program are finalized. The bulk of the application testing effort occurs in the QA environment, and the bugs logged refer to issues found in this environment. It is an important step on the path towards the software release readiness, and a separate and controlled environment is critical. </li>
-                    <li> The preproduction environment is where the program is tested and pushed to its limits to see when it breaks. The production environment is where the users get to enjoy the finalized released versions of the program. The production environment must run smoothly and have no issues in order to create a good user experience for its front end customers. </li>
+                    <li> A testing environment is: Space developers deploy their work for testing their work. </li>
+                    <li> <b>Local:</b> Developer's Machine - to build and test your own code on your computer. </li>
+                    <li> <b>Dev:</b> Dev Testing Server: Dev Paired Code reviews. </li>
+                    <li> <b>QA:</b> Quality Assurance Testing Server for QA team. </li>
+                    <li> <b>UAT:</b> User Acceptance Test Server for Customer to test. </li>
+                    <li> <b>Production:</b> Live website for users to access - public domain. </li>
+                </ul>
+            </Essay>
+
+            <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
+                <ul>
+                    <li>  Answer goes here. </li>
                 </ul>
             </Essay>
 
