@@ -94,12 +94,18 @@ const Essays = () => {
 
             <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
                 <ul>
-                    <li> Web images are considered part of the content (HTML) when the image needs to be printed and included by default. It is part of the content when it has important meaning (semantic) attached to it such as when you use alt text. Web images are also considered part of the content when it is a logo, diagram, or real person. If you rely on browser scaling to render an image in proportion to its text size. </li>
-                    <li> Web images are considered part of the appearance (CSS) when it is not part of the content. That means when you’re doing an image replacement of text. The images are also considered part of the appearance when you want people to print the page without the image as default. It is also considered part of the appearance when you only need a portion of the image visible or when you need to stretch a background image to fill its entire window. </li>
+                    <li> Printable is good in HTML, CSS by default is off - as background image. </li>
+                    <li> HTML if image is related to content. </li>
                 </ul>
             </Essay>
 
             <Essay q='S13. What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)?' >
+                <ul>
+                    <li> Answer goes here. </li>
+                </ul>
+            </Essay>
+
+            <Essay q='S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?' >
                 <ul>
                     <li> Answer goes here. </li>
                 </ul>
