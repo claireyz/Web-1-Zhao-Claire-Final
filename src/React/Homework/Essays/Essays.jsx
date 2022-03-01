@@ -101,10 +101,10 @@ const Essays = () => {
 
             <Essay q='S13. What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)?' >
                 <ul>
-                    <li> IDs and classes are ways to describe content in an HTML document. Tags are like keywords that define how a browser will display the content. By using tags, the browser can differentiate if the content is HTML or regular. HTML tags contain three parts: an opening, content, and closing tag. </li>
-                    <li> IDs are unique and can only be used once. Each element can only have 1 ID and each  page can have only 1 element with that ID. </li>
-                    <li> Classes are not unique and can be used over and over. You can use the same class on multiple elements and you can use multiple classes on the same element. Any styling information that needs to be applied to multiple objects should use classes. </li>
-                    <li> Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.  When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.</li>
+                    <li><b>ID:</b> Label: Uses pound sign (#) in CSS, singular - should only label one item on a page.</li>
+                    <li><b> Classes:</b> Label: We use the period (.) in CSS and JS, defines a series; multiple HTML elements. </li>
+                    <li><b>Tag:</b> Any HTML tag in the HTML language. </li>
+                    <li><b> Specificity:</b> Determines which selector and rule applies to an element. </li>
                 </ul>
             </Essay>
 
