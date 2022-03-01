@@ -110,7 +110,12 @@ const Essays = () => {
 
             <Essay q='S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?' >
                 <ul>
-                    <li> Answer goes here. </li>
+                    <li> <b>CSS Preprocessor:</b> a scripting language that extends the default capabilities of CSS. Preprocessors let you use logic in your code, adding variables, nesting, inheritance, mixins, functions, and mathematical operations. They make it easy to automate repetitive tasks and reduce errors.  The three most popular CSS Preprocessors are Sass, LESS, and Stylus. </li>
+                    <li>  SASS stands for Syntactically Awesome Style Sheets and allows frontend developers to use variables, if/else statements, for/while/each loops, inheritance, and other computational logic in their CSS code. </li>
+                    <li> The LESS CSS preprocessor stands for Leaner style sheets and is a JavaScript library that extends the default functionalities of CSS. As it’s written in JavaScript, we need Node.js to install and run the LESS compiler. </li>
+                    <li> Developers frequently praise Stylus for its terse and flexible syntax. Stylus uses the .styl file extension and it allows us to write code in many different ways. We can use the standard CSS syntax, but we can also omit brackets, colons, and/or semicolons or leave out all punctuation altogether.</li>
+                    <li> <b>Styled-components:</b> a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS. Styled-components allows React developers to write plain CSS in React components without having to worry about clashing of class names. </li>
+                    <li> There are people who argue that React and its JSX are mixing HTML, CSS and JavaScript which were suppose to be separated. React components render to DOM elements. Nothing stops us to use the good old class attribute and attach a CSS class to the produced HTML element. The only one difference is that the attribute is called className instead of class. The rest still works which means that if we want we may put our styles into external .css files. Following this approach we are not breaking the separation of concerns principle and still build a React app using JSX. There are patterns that help us to compose and logically separate our apps. We can still write well organized programs with clearly defined responsibilities. </li>
                 </ul>
             </Essay>
 
