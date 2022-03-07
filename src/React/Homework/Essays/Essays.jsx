@@ -117,9 +117,11 @@ const Essays = () => {
                 </ul>
             </Essay>
 
-            <Essay q='S15. Final Project Essays goes here:' >
+            <Essay q='S15. Final Project Essay:' >
                 <ul>
-                    <li> Answer goes here. </li>
+                    <li> I plan on designing a personal portfolio as my final project. I will be the client and I want my focus to be showcasing my User Experience Design projects. I am currently enrolled in the UCLA User Experience Design professional certificate program. I am halfway done with the program and I would like to get started with developing my portfolio. I understand that my main pages will be a home/welcome page, a projects page, a resume page, and possibly a contact page. </li>
+                    <li> The purpose of my portfolio is to showcase my work. I want it to have those Lightbox and gallery features. I would like to display my projects in an image gallery style that users would click into and bring them to a new page. It would be like Tumblr or Pinterest style where it’s big square hero image and a short description. I would like my page to be clean, simple, modern, and have some splashes of personal color and style. </li>
+                    <li> I would like to demonstrate how I am different from other designers and show how I can start and finish things from scratch. I am hoping that by building my own portfolio website, it can become another one of my own personal projects that I can talk about with recruiters and interested professionals.</li>
                 </ul>
             </Essay>
 
