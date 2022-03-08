@@ -125,6 +125,23 @@ const Essays = () => {
                 </ul>
             </Essay>
 
+            <Essay q='S16. What is the difference between Web Hosts, Domains, and FTP?' >
+                <ul>
+                    <li> <b> Web Hosts:</b> </li>
+                    <li> <b> Domains:</b> </li>
+                    <li> <b> FTP:</b> </li>
+                </ul>
+            </Essay>
+
+            <Essay q='S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?' >
+                <ul>
+                    <li> <b> Package Manager:</b> </li>
+                    <li> <b> NPM:</b> </li>
+                    <li> <b> Composer:</b> </li>
+                    <li> <b> Role in software development:</b> </li>
+                </ul>
+            </Essay>
+
         </EssaysStyled>
     )
 }
