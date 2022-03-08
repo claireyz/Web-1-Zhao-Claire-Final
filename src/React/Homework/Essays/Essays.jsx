@@ -127,9 +127,9 @@ const Essays = () => {
 
             <Essay q='S16. What is the difference between Web Hosts, Domains, and FTP?' >
                 <ul>
-                    <li> <b> Web Hosts:</b> </li>
-                    <li> <b> Domains:</b> </li>
-                    <li> <b> FTP:</b> </li>
+                    <li> <b> Web Hosts:</b> Web hosting is a service that gives you a space to exist and be found by other users on the web. This place is on a server and you store all of your website files there. Without this hosting space, your website is not visible or accessible to other users. You can get web hosting services through a service provider. </li>
+                    <li> <b> Domains:</b> Commonly known as your URL, is a unique website address that can be searched for and found on the internet. You have to pay for your own unique domain, usually at an annual rate or for multiple years. </li>
+                    <li> <b> FTP:</b> A File Transfer Protocol is a tool that lets web developers download and upload your website's files to your hosting account. An FTP is accessed by a username and password which are created by your web hosting provider. </li>
                 </ul>
             </Essay>
 
