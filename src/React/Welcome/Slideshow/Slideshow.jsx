@@ -30,6 +30,6 @@ const SlideshowStyled = styled.div`
     
 
     .carousel .slide .legend {
-        background-color: teal;
+        background-color: #c6c6ea;
     }
 `;
