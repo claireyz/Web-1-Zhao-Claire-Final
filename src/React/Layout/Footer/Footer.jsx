@@ -2,13 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 import SiteTitle from './SiteTitle.jsx';
-import Logo from './Logo.jsx';
 
 const Footer = () => {
 
     return (
         <FooterStyled className='Footer'>
-            <Logo />
             <SiteTitle /> 
         </FooterStyled>
     );
