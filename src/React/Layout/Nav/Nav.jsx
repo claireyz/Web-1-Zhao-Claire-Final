@@ -33,7 +33,7 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: rgb(1, 68, 68);
+    background-color: #63638f;
     padding: 20px;
     color: white;
 `;

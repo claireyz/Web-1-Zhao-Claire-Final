@@ -40,11 +40,11 @@ const MainMenuStyled = styled.div`
         font-weight: bold;
 
         &:hover {
-            background-color: #038484;
+            background-color: #63638f;
         }
         &.active {
             color: #c6c6ea;
-            background-color: #AEE6E6;
+            background-color: #e6e8fa;
         }
 
     }
