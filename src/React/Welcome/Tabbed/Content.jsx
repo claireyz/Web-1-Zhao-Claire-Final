@@ -9,7 +9,7 @@ const Content = ({ chosenTab }) => {
                 <img src={ chosenTab.image } alt={ chosenTab.title } />
             </div>
             <div className="right">
-                <h3>{ chosenTab.title }</h3>
+                <h2>{ chosenTab.title }</h2>
                 <div dangerouslySetInnerHTML={ { __html:chosenTab.text } } />
             </div>
         </ContentStyled>
@@ -20,18 +20,19 @@ export default Content;
 
 const ContentStyled = styled.div`
     display: flex;
-    padding: 20px;
-    background-color: teal;
+    padding: 50px;
+    background-color: #c6c6ea;
 
     .left {
         flex: 1;
         img {
             width: 100%;
+            padding: 10px;
         }
     }
 
     .right {
-        flex: 3;
-        margin-left: 20px;
+        flex: 4;
+        margin-left: 40px;
     }
 `;

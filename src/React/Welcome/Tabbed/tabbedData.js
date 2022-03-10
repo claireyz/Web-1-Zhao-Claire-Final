@@ -1,17 +1,16 @@
+import { faAlignCenter } from "@fortawesome/free-solid-svg-icons";
+
 export const tabbedData = [
     {
-        image: '/assets/img/MissionVision/about.jpg',
-        title: 'About',
-        text: '<p><b>About</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p> <p>About Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
+        image: '/assets/img/MissionVision/profile picture.jpg',
+        title: 'About Me',
+        text: '<p> Hi! I am Claire and I aspire to create thoughtful User Experience Design. I enjoy deep talks and inquire a lot about what makes other experiences different and unique from my own. I am empathy driven and do what I can to improve the quality of life for others. I am a User Experience Designer in progress and learning to enjoy the process. If I am not working, I am probably taking funny videos of my two cats. </p>',
     },
     {
-        image: '/assets/img/MissionVision/mission.jpg',
-        title: 'Mission',
-        text: '<p><b>Mission</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
-    },
-    {
-        image: '/assets/img/MissionVision/vision.jpg',
-        title: 'Vision',
-        text: '<p><b>Vision</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
+        image: '/assets/img/MissionVision/cats.jpg',
+        image: '/assets/img/MissionVision/cat meme.jpg',
+        image: '/assets/img/MissionVision/donuts.jpg',
+        image: '/assets/img/MissionVision/errands meme.jpg',
+        title: 'My Guilty Pleasures',
     },
 ];
