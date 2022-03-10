@@ -30,7 +30,7 @@ const MainMenuStyled = styled.div`
         display: block;
         color: white;
         margin: 5px 10px;
-        background-color: #c6c6ea;
+        background-color: #63638f;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -43,7 +43,7 @@ const MainMenuStyled = styled.div`
             background-color: #63638f;
         }
         &.active {
-            color: #c6c6ea;
+            color: #63638f;
             background-color: #e6e8fa;
         }
 

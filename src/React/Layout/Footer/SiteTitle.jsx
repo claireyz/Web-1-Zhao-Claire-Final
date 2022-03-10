@@ -17,10 +17,10 @@ const SiteTitleStyled = styled.div`
     h2{
         margin: 5px 0px;
         font-size: 14px;
-        color: #c6c6ea;
+        color: #63638f;
     }
     .copyright {
         font-size: 14px;
-        color: #c6c6ea;
+        color: #63638f;
     }
 `;
