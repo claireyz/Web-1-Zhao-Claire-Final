@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo from './Logo.jsx';
 import SiteTitle from './SiteTitle.jsx';
 
 const Header = () => {
@@ -9,7 +8,6 @@ const Header = () => {
     return (
         <HeaderStyled className='Header'>
             <div className="row">
-                <Logo/>
                 <SiteTitle /> 
             </div>
         </HeaderStyled>
@@ -28,13 +26,6 @@ const HeaderStyled = styled.header`
         display: flex;
         width: 420px;
         align-items: center;
-
-        .Logo {
-            flex: 1;
-            padding-right: 20px;
-            display: flex;
-            align-items: center;
-        }
 
         .SiteTitle {
             flex: 3;
