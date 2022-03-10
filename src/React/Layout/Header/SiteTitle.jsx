@@ -14,7 +14,7 @@ export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
     color: #63638f;
-    text-align: left;
+    text-align: center;
 
     h2 {
         margin: 0px;
