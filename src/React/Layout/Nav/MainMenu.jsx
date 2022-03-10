@@ -28,7 +28,7 @@ const MainMenuStyled = styled.div`
 
     a{
         display: block;
-        color: #63638f;
+        color: white;
         margin: 5px 10px;
         background-color: #63638f;
         height: 50px;
