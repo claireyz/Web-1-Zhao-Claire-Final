@@ -23,9 +23,6 @@ const Main = () => {
                 <Route path='/contact'> 
                     <Contact />
                 </Route>
-                <Route path='/login'> 
-                    <Login />
-                </Route>
                 <Route path='/homework'> 
                     <Homework />
                 </Route>
