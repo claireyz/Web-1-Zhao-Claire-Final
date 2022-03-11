@@ -7,35 +7,35 @@ import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 /* Components ---------------------------*/
 import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
 
-const StaffMember = ({member}) => {
+const Project = ({project}) => {
 
     const ActiveContent = () => {
         return (
             <>
-            <img src={ member.image } alt={ member.name } />
-            <h3>{ member.name }</h3>
+                <img src={ project.image } alt={ project.name } />
+                <h3>{ project.name }</h3>
             </>
         )
     }
 
     const ModalContent = () => {
-        return <img src={ member.image } alt={ member.name } />;
+        return <img src={ project.image } alt={ project.name } />;
     }
 
     return (
-        <StaffMemberStyled className='StaffMember'>
+        <ProjectStyled className='Project'>
             <Lightbox
-                title={ member.name }
+                title={ project.name }
                 activeContent={ <ActiveContent /> }
                 modalContent={ <ModalContent /> }
             />
-        </StaffMemberStyled>
+        </ProjectStyled>
     );
 }
 
-export default StaffMember;
+export default Project;
 
-const StaffMemberStyled = styled.div`
+const ProjectStyled = styled.div`
     width: 45%;
     margin: 5px;
 

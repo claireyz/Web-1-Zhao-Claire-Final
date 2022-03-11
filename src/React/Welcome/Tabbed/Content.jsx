@@ -11,6 +11,12 @@ const Content = ({ chosenTab }) => {
             <div className="right">
                 <h2>{ chosenTab.title }</h2>
                 <div dangerouslySetInnerHTML={ { __html:chosenTab.text } } />
+
+                {
+                    chosenTab.images.map((img, idx) => {
+                        return <img key={ idx } src={ img } />
+                    })
+                }
             </div>
         </ContentStyled>
     );

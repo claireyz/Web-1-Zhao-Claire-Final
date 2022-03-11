@@ -2,30 +2,30 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* Scripts ---------------------------*/
-import { staffData } from './staffData.js';
+import { projectsData } from './projectsData.js';
 
 /* Components ---------------------------*/
-import StaffMember from './StaffMember.jsx';
+import Project from './Project.jsx';
 
-const Staff = () => {
+const Projects = () => {
 
     return (
-        <StaffStyled className='Staff'>
-            <h3>Staff</h3> 
+        <ProjectsStyled className='Projects'>
+            <h3>Projects</h3> 
             <div className="wrapper">
             {
-                staffData.map((member, idx) => {
-                    return <StaffMember key={ idx } member={ member } />
+                projectsData.map((project, idx) => {
+                    return <Project key={ idx } project={ project } />
                 })
             }
             </div>
-        </StaffStyled>
+        </ProjectsStyled>
     );
 }
 
-export default Staff;
+export default Projects;
 
-const StaffStyled = styled.div`
+const ProjectsStyled = styled.div`
     background-color: teal;
     padding: 20px;
     margin: 20px 0px;
