@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { YouTubeEmbed } from 'react-social-media-embed';
 
 const Content = ({ chosenTab }) => {
 
@@ -11,6 +12,14 @@ const Content = ({ chosenTab }) => {
             <div className="right">
                 <h2>{ chosenTab.title }</h2>
                 <div dangerouslySetInnerHTML={ { __html:chosenTab.text } } />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+            {
+                chosenTab.youtubeID &&
+                <YouTubeEmbed url={`https://www.youtube.com/watch?v=${chosenTab.youtubeID}`} width={325} height={220} />
+            }
+
+            </div>
 
                 {
                     chosenTab.images.map((img, idx) => {
@@ -26,8 +35,11 @@ export default Content;
 
 const ContentStyled = styled.div`
     display: flex;
-    padding: 50px;
-    background-color: #c6c6ea;
+    padding: 40px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    border-color: #63638f;
+    border-width: thin;
 
     .left {
         flex: 1;

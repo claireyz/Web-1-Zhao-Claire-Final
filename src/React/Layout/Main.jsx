@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
 import Welcome from '../Welcome/Welcome.jsx';
-import Services from '../Services/Services.jsx';
+import Projects from '../Projects/Projects.jsx';
 import Contact from '../Contact/Contact.jsx';
 import Login from '../Login/Login.jsx';
 import Homework from '../Homework/Homework.jsx';
@@ -17,8 +17,8 @@ const Main = () => {
                 <Route path='/' exact> 
                     <Welcome />
                 </Route>
-                <Route path='/services'> 
-                    <Services />
+                <Route path='/projects'> 
+                    <Projects />
                 </Route>
                 <Route path='/contact'> 
                     <Contact />

@@ -14,7 +14,7 @@ const Projects = () => {
             <h3>Projects</h3> 
             <div className="wrapper">
             {
-                projectsData.map((project, idx) => {
+                projectsData.services.map((project, idx) => {
                     return <Project key={ idx } project={ project } />
                 })
             }
