@@ -6,7 +6,7 @@ import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 /* Components ---------------------------*/
 import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
 
-const ServiceGalleryItem = ({service}) => {
+const ProjectGalleryItem = ({service}) => {
 
     const ActiveContent = () => {
         return (
@@ -22,7 +22,6 @@ const ServiceGalleryItem = ({service}) => {
                 <img src={ service.image } alt={ service.title } />
                 <ul>
                     <li><b>Category:</b> { service.category }</li>
-                    <li><b>Cost:</b> { service.cost }</li>
                 </ul>
                 <p>{ service.description }</p>
             </>
@@ -30,19 +29,19 @@ const ServiceGalleryItem = ({service}) => {
     }
 
     return (
-        <ServiceGalleryItemStyled className='ServiceGalleryItem'>
+        <ProjectGalleryItemStyled className='ProjectGalleryItem'>
             <Lightbox
             title={ service.title }
             activeContent={ <ActiveContent /> }
             modalContent={ <ModalContent /> }
             />
-        </ServiceGalleryItemStyled>
+        </ProjectGalleryItemStyled>
     );
 }
 
-export default ServiceGalleryItem;
+export default ProjectGalleryItem;
 
-const ServiceGalleryItemStyled = styled.div`
+const ProjectGalleryItemStyled = styled.div`
     width: 50%;
     padding: 5px;
     position: relative;

@@ -1,28 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ServiceGalleryItem from './ServiceGalleryItem.jsx';
+import ProjectGalleryItem from './ProjectGalleryItem.jsx';
 
-const ServiceGallery = ({services, chosenCategory}) => {
+const ProjectGallery = ({services, chosenCategory}) => {
 
     return (
-        <ServiceGalleryStyled className='ServiceGallery'>
+        <ProjectGalleryStyled className='ProjectGallery'>
             {
                 services
                 .filter((service) => {
                     return (chosenCategory === 'All' || service.category === chosenCategory);
                 })
                 .map((service, idx) => {
-                    return <ServiceGalleryItem key ={ idx } service={ service}/>
+                    return <ProjectGalleryItem key ={ idx } service={ service}/>
                 })
             }
-        </ServiceGalleryStyled>
+        </ProjectGalleryStyled>
     );
 }
 
-export default ServiceGallery;
+export default ProjectGallery;
 
-const ServiceGalleryStyled = styled.div`
+const ProjectGalleryStyled = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

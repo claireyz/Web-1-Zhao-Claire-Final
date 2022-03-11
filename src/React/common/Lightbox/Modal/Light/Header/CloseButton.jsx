@@ -36,6 +36,6 @@ const CloseButtonStyled = styled.div`
         opacity: 1;
     }
     &:active {
-        color: yellow;
+        color: grey;
     }
 `;
