@@ -19,14 +19,14 @@ const SubmitButtonStyled = styled.div`
     text-align: right;
 
     button{
-        background-color: teal;
+        background-color: #c6c6ea;
         color: #fff;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;
 
         &:hover, &:focus {
-            background-color: #013f3f;
+            background-color: #63638f;
         }
     }
 `;
