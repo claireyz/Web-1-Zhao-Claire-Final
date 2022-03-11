@@ -6,8 +6,8 @@ import styled from 'styled-components';
 import { projectsData } from './projectsData.js';
 
 /* Components ---------------------------*/
-import ServiceGallery from './ServiceGallery/ServiceGallery.jsx';
-import ServiceMenu from './ServiceMenu/ServiceMenu.jsx';
+import ProjectGallery from './ProjectGallery/ProjectGallery.jsx';
+import ProjectMenu from './ProjectMenu/ProjectMenu.jsx';
 
 
 const Projects = () => {
@@ -19,8 +19,8 @@ const Projects = () => {
     return (
         <ProjectsStyled className='Projects'>
             <h1>Projects</h1>
-            <ServiceMenu categories={ projectsData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate } />
-            <ServiceGallery services={ projectsData.services } chosenCategory={ chosenCategory } />
+            <ProjectMenu categories={ projectsData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate } />
+            <ProjectGallery services={ projectsData.services } chosenCategory={ chosenCategory } />
         </ProjectsStyled>
     );
 }

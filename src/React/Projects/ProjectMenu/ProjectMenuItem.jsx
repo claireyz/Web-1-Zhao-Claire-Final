@@ -33,7 +33,7 @@ const ProjectMenuItemStyled = styled.div`
     }
 
     &.active {
-        background-color: #c6c6ea;
+        background-color: #63638f;
         color: white;
     }
 `;

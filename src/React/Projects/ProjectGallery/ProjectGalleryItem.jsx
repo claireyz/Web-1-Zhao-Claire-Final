@@ -42,7 +42,7 @@ const ProjectGalleryItem = ({service}) => {
 export default ProjectGalleryItem;
 
 const ProjectGalleryItemStyled = styled.div`
-    width: 50%;
+    width: 500%;
     padding: 5px;
     position: relative;
 
@@ -62,7 +62,7 @@ const ProjectGalleryItemStyled = styled.div`
         }
 
         h3 {
-            background-color: rgba(0, 128, 128, 0.715);
+            background-color: #c6c6ea;
             margin: 0px;
             padding: 10px;
 
