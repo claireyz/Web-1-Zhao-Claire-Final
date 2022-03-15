@@ -135,10 +135,10 @@ const Essays = () => {
 
             <Essay q='S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?' >
                 <ul>
-                    <li> <b> Package Manager:</b> A package manager keeps track of what software is installed on your computer. It lets you install new software, upgrade software to newer versions, or remove software that you previously installed. Package managers deal with packages: collections of files that are bundled together and can be installed and removed as a group. Some package managers are dependent on you installing other packages first in order to work. </li>
+                    <li> <b> Package Manager:</b> Keeps track of software versions installed, upgrade, or remove. Packages - collections of files to install. Creates a set of Dependencies. </li>
                     <li> <b> NPM:</b> NPM is the world’s largest registry for free open source node package managers. Software developers use NPM to share and upload packages for free. </li>
                     <li> <b> Composer:</b> Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Composer challenges PHP’s traditional single-script server usage by allowing package imports. Furthermore, Composer allows imports to be used traditionally from a server endpoint or simply from running scripts via the command line interchangeably. </li>
-                    <li> <b> Role in software development:</b> A package manager is a programming language’s tool to create project environments and easily import external dependencies. You don’t have to reinvent the wheel and are able to make the most of the tools at your disposal. </li>
+                    <li> <b> Role in software development:</b> Ensures all team members are using same dependencies. And control over versioning - less likely to break app. </li>
                 </ul>
             </Essay>
 
