@@ -24,3 +24,4 @@ export const tabbedData = [
         title: 'Some of my Favorite Things',
     },
 ];
+    

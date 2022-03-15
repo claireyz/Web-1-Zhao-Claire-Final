@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { YouTubeEmbed } from 'react-social-media-embed';
+import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 
 const Content = ({ chosenTab }) => {
 
@@ -34,24 +35,38 @@ const Content = ({ chosenTab }) => {
 export default Content;
 
 const ContentStyled = styled.div`
-    display: flex;
-    padding: 40px;
+    @media ${defaultMediaQueries.mdUp} {
+        display: flex;
+    }
+    padding: 40px 10px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     border-color: #63638f;
     border-width: thin;
+    border-style: solid;
 
     .left {
         flex: 1;
         img {
             width: 100%;
-            padding: 10px;
+            /* padding: 30px; */
+            position: relative;
+        }
+
+        @media ${defaultMediaQueries.mdUp} { 
+            img {
+
+            }
         }
 
     }
 
     .right {
         flex: 4;
-        margin-left: 40px;
+        margin-left: 10px;
+        img {
+            width: 40%;
+            margin: 30px 30px 30px 30px;
+        }
     }
 `;

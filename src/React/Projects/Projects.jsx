@@ -1,26 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-
-
-/* Scripts ---------------------------*/
-import { projectsData } from './projectsData.js';
+import { Switch, Route } from 'react-router-dom';
 
 /* Components ---------------------------*/
-import ProjectGallery from './ProjectGallery/ProjectGallery.jsx';
-import ProjectMenu from './ProjectMenu/ProjectMenu.jsx';
-
+import ProjectMain from './ProjectMain/ProjectMain.jsx';
+import P1 from './Sub/P1.jsx';
+import P2 from './Sub/P2.jsx';
+import P3 from './Sub/P3.jsx';
 
 const Projects = () => {
-
-    const [chosenCategory, chosenCategoryUpdate] = useState('All');
-
-    console.log('ChosenCategory', chosenCategory);
 
     return (
         <ProjectsStyled className='Projects'>
             <h1>Projects</h1>
-            <ProjectMenu categories={ projectsData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate } />
-            <ProjectGallery services={ projectsData.services } chosenCategory={ chosenCategory } />
+            <Switch>
+                <Route path='/projects' exact> 
+                    <ProjectMain />
+                </Route>
+                <Route path='/projects/p1'> 
+                    <P1 />
+                </Route>
+                <Route path='/projects/p2'> 
+                    <P2 />
+                </Route>
+                <Route path='/projects/p3'> 
+                    <P3 />
+                </Route>
+            </Switch>
         </ProjectsStyled>
     );
 }
