@@ -12,6 +12,7 @@ const Contact = () => {
     return (
         <ContactStyled className='Contact'>
             <h1>Contact</h1> 
+            <h4> Interested in what I do? Send me a message. </h4>
             <UniversalForm
                 apiUrl='/email/send'
                 onSubmit={ onSubmitHandler }

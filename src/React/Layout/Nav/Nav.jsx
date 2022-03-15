@@ -35,6 +35,7 @@ export default Nav;
 const NavStyled = styled.nav`
     background-color: white;
     padding: 20px;
+    margin: 10px 10px 10px 10px;
     color: black;
     border-color: #63638f;
     border-width: thin;

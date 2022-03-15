@@ -53,7 +53,7 @@ const MainMenuStyled = styled.div`
             a {
                 display: inline-block;
                 width: 150px;
-                margin: 0px 10px;
+                margin: 0px 10px 10px 10px;
                 font-size: 16px;
                 border-radius: 5px;
         }

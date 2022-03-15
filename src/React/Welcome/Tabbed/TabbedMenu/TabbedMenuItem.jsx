@@ -25,7 +25,8 @@ const TabbedMenuItemStyled = styled.div`
     cursor: pointer;
     border-radius: 10px 10px 0px 0px;
     line-height: 30px;
-    margin-right: 30px;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
 
     &.selected {
         background-color: #63638f;
