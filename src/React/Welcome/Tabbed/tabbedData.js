@@ -8,7 +8,7 @@ export const tabbedData = [
     },
     {
         youtubeID: 'hg-eDgNBMZE',
-        title: 'Favorite UX Design Resources',
+        title: 'UX Design Resource Videos',
         images: [],
         image: '/assets/img/AboutMe/profilepicture.jpg',
     },

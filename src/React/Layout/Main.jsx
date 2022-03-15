@@ -5,7 +5,6 @@ import { Switch, Route } from 'react-router-dom';
 import Welcome from '../Welcome/Welcome.jsx';
 import Projects from '../Projects/Projects.jsx';
 import Contact from '../Contact/Contact.jsx';
-import Login from '../Login/Login.jsx';
 import Homework from '../Homework/Homework.jsx';
 
 const Main = () => {

@@ -40,6 +40,7 @@ const ProjectLightbox = () => {
 export default ProjectLightbox;
 
 const ProjectLightboxStyled = styled.div`
+
     .ActiveArea {
         width: 90%;
         padding: 15px;
@@ -62,7 +63,6 @@ const ProjectLightboxStyled = styled.div`
             padding: 10px; 
             margin: 10px 10px 10px 10px;
         }
-
 
         h3 {
             background-color: #c6c6ea;
@@ -89,7 +89,7 @@ const ProjectLightboxStyled = styled.div`
     
     .Light {
         img {
-            width: 100%;
+            width: 200%;
             display: block;
         }
         ul {

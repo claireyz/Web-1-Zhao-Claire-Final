@@ -5,7 +5,9 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2>Claire Zhao</h2>
+            <h2>Claire Zhao: </h2>
+            <h4>User Experience Designer </h4> 
+            <img src='assets/img/sitetitleicon.png' alt='colors' />
         </SiteTitleStyled>
     );
 }
@@ -23,6 +25,10 @@ const SiteTitleStyled = styled.div`
     h3 {
         margin: 0px;
         font-size: 20px;
+    }
+    h4 {
+        margin: 20px;
+        text-align: center;
     }
     
 `;

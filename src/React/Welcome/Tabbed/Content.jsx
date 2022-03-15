@@ -17,7 +17,7 @@ const Content = ({ chosenTab }) => {
 
             {
                 chosenTab.youtubeID &&
-                <YouTubeEmbed url={`https://www.youtube.com/watch?v=${chosenTab.youtubeID}`} width={325} height={220} />
+                <YouTubeEmbed url={`https://www.youtube.com/watch?v=${chosenTab.youtubeID}`} width={650} height={440} />
             }
 
             </div>
@@ -39,8 +39,9 @@ const ContentStyled = styled.div`
         display: flex;
     }
     padding: 40px 10px;
+    margin-bottom: 40px;
     background-color: white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     border-color: #63638f;
     border-width: thin;
     border-style: solid;
@@ -66,7 +67,7 @@ const ContentStyled = styled.div`
         margin-left: 10px;
         img {
             width: 40%;
-            margin: 30px 30px 30px 30px;
+            margin: 0px 0px 10px 10px;
         }
     }
 `;

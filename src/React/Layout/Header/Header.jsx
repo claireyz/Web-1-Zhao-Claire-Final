@@ -24,7 +24,7 @@ const HeaderStyled = styled.header`
 
     .row {
         display: flex;
-        width: 420px;
+        width: 600px;
         align-items: center;
 
         .SiteTitle {
