@@ -37,7 +37,7 @@ const ContentStyled = styled.div`
     display: flex;
     padding: 40px;
     background-color: white;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     border-color: #63638f;
     border-width: thin;
 
@@ -47,6 +47,7 @@ const ContentStyled = styled.div`
             width: 100%;
             padding: 10px;
         }
+
     }
 
     .right {
