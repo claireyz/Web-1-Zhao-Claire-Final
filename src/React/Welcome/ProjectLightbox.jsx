@@ -89,7 +89,7 @@ const ProjectLightboxStyled = styled.div`
     
     .Light {
         img {
-            width: 200%;
+            width: 100%;
             display: block;
         }
         ul {
